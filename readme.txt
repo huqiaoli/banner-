@@ -26,4 +26,4 @@ for(var i=0;i<subMenu.length;i++){
 alert(subMenu[i].id)//这里访问集合中的元素
 
 
-九种原生js动画效果
+[九种原生js动画效果](http://www.jb51.net/article/74686.htm)  
