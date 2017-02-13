@@ -1,26 +1,28 @@
-js »ñÈ¡ÔªËØÏÂÃæËùÓĞliµÄÁ½ÖÖ·½·¨
+js è·å–å…ƒç´ ä¸‹é¢æ‰€æœ‰liçš„ä¸¤ç§æ–¹æ³•
 // var content=document.getElementById("box");
 // var items=content.getElementsByTagName("ul");
-// var lis=items[0].getElementsByTagName("li");//»ñÈ¡boxÏÂµÚÒ»¸öulÀïli¼¯ºÏ
+// var lis=items[0].getElementsByTagName("li");//è·å–boxä¸‹ç¬¬ä¸€ä¸ªulé‡Œlié›†åˆ
 // console.log(lis)
 
-»ò
+æˆ–
 // var content=document.getElementById("box");
 // var items=box.childNodes.item(0);
 // var lis=item.children;
 
 window.onload=function(){
   var div=document.getElementById("star");   
-  var objul=div.getElementsByTagName("ul")[0];//getElementsByTagName("ul")[0]»ñµÃµÚÒ»¸öulÔªËØ
+  var objul=div.getElementsByTagName("ul")[0];//getElementsByTagName("ul")[0]è·å¾—ç¬¬ä¸€ä¸ªulå…ƒç´ 
   var lis=objul.getElementsByTagName("li")
 }
 window.onload=function(){
   var div=document.getElementById("star");   
-  var objul=div.getElementsByTagName("ul");//getElementsByTagName("ul")»ñµÃÒ»¸öulÔªËØ¼¯ºÏ
-  var lis=objul[0].getElementsByTagName("li")//getElementsByTagNameÀïÃæµÄElementsÓĞ¸ös£¬ÒâÎ¶×Å»ñÈ¡µÄÊÇ¶à¸öÔªËØ£¬ËùÒÔÓÃµÄÊÇularr[0]£¨¼´Ê¹Ö»ÓĞÒ»¸ö£¬Ò²µÃÓÃÊı×é·½Ê½±íÊ¾£©;
+  var objul=div.getElementsByTagName("ul");//getElementsByTagName("ul")è·å¾—ä¸€ä¸ªulå…ƒç´ é›†åˆ
+  var lis=objul[0].getElementsByTagName("li")//getElementsByTagNameé‡Œé¢çš„Elementsæœ‰ä¸ªsï¼Œæ„å‘³ç€è·å–çš„æ˜¯å¤šä¸ªå…ƒç´ ï¼Œæ‰€ä»¥ç”¨çš„æ˜¯ularr[0]ï¼ˆå³ä½¿åªæœ‰ä¸€ä¸ªï¼Œä¹Ÿå¾—ç”¨æ•°ç»„æ–¹å¼è¡¨ç¤ºï¼‰;
 }
-getElementsByTagName Õâ¸ö·½·¨·µ»ØÒ»¸öÀàËÆÊı×éµÄ¶ÔÏó£¬·ÃÎÊÊı×é¶ÔÏó¿ÉÒÔÓÃÏÂ±êÀ´·ÃÎÊ
-¡¾0¡¿¾ÍÊÇÈ¡ÆäµÚÒ»Ïî£¬£¨×¢ÒâÊÇelements ÄÇ¸öS ËµÃ÷ÊÇ¸öÊı×éÀàµÄ£©£¬Ò²¿ÉÒÔÑ­»·±éÀú·ÃÎÊ¶ÔÏó³ÉÔ±¡£
-var subMenu = li.getElementsByTagName("ul");//ul µÄ¼¯ºÏ
+getElementsByTagName è¿™ä¸ªæ–¹æ³•è¿”å›ä¸€ä¸ªç±»ä¼¼æ•°ç»„çš„å¯¹è±¡ï¼Œè®¿é—®æ•°ç»„å¯¹è±¡å¯ä»¥ç”¨ä¸‹æ ‡æ¥è®¿é—®
+ã€0ã€‘å°±æ˜¯å–å…¶ç¬¬ä¸€é¡¹ï¼Œï¼ˆæ³¨æ„æ˜¯elements é‚£ä¸ªS è¯´æ˜æ˜¯ä¸ªæ•°ç»„ç±»çš„ï¼‰ï¼Œä¹Ÿå¯ä»¥å¾ªç¯éå†è®¿é—®å¯¹è±¡æˆå‘˜ã€‚
+var subMenu = li.getElementsByTagName("ul");//ul çš„é›†åˆ
 for(var i=0;i<subMenu.length;i++){
-alert(subMenu[i].id)//ÕâÀï·ÃÎÊ¼¯ºÏÖĞµÄÔªËØ
+alert(subMenu[i].id)//è¿™é‡Œè®¿é—®é›†åˆä¸­çš„å…ƒç´ 
+
+//ä¹ç§åŸç”ŸjsåŠ¨ç”»æ•ˆæœ
